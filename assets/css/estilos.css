@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../imgs/fondo.jpg");
+  background-position: center; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  height: auto; 
+  padding: 80px;
+  margin: 0; 
+}
+
+/* Formulario */
+
+#preview {
+  height: 200px;
+  background-image: url(../imgs/lion.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#preview img{
+  width: 300px;
+  height: 100%;
+  margin: auto;
+}
+
+/* Tabla de Participantes */
+
+#Animales {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 5px;
+  height: 100%;
+}
+
+/* Tarjetas uniformes */
+.participante {
+  width: 200px; 
+  height: 240px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Imagen dentro de la tarjeta */
+.card-img {
+  width: 100%;
+  height: 180px; /* Tamaño uniforme para las imágenes */
+  border-radius: 8px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.card-img img{
+  width: 100%;
+  height: 100%;
+}
+
+/* Contenido de la tarjeta */
+.card-content {
+  padding: 3px;
+  flex-grow: 1;
+}
+
+/* Estilo para el audio */
+.button-sonido {
+  background-color: #69737d;
+  width: 100%;
+  height: 50px;
+}
+.button-sonido img{
+  width: 30px;
+  height: 30px;
+}
+
+#player {
+  display: none;
+  visibility: hidden; /* Esto oculta el elemento pero aún ocupa espacio */
+  height: 0; /* Reduce la altura a 0 para que no afecte el diseño */
+  width: 0; /* Reduce el ancho a 0 para que no afecte el diseño */
+}
+
+/* Modal */
+
+.modal-dialog{
+    max-width: 85% !important;
+}
+
+#info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#info img{
+  width: 90%;
+  height: 300px;
+}
+
+#info hr{
+  border: 1px solid #000;
+  width: 90%;
+}

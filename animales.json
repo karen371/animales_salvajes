@@ -1,0 +1,29 @@
+{
+  "animales": [
+    {
+      "name": "Leon",
+      "imagen": "./assets/imgs/Leon.png",
+      "sonido":"./assets/sounds/Rugido.mp3"
+    },
+    {
+      "name": "Lobo",
+      "imagen": "./assets/imgs/Lobo.jpg",
+      "sonido":"./assets/sounds/Aullido.mp3"
+    },
+    {
+      "name": "Oso",
+      "imagen": "./assets/imgs/Oso.jpg",
+      "sonido":"./assets/sounds/Grunido.mp3"
+    },
+    {
+      "name": "Serpiente",
+      "imagen": "./assets/imgs/Serpiente.jpg",
+      "sonido":"./assets/sounds/Siseo.mp3"
+    },
+    {
+      "name": "Aguila",
+      "imagen": "./assets/imgs/Aguila.png",
+      "sonido":"./assets/sounds/Chillido.mp3"
+    }
+  ]
+}
